@@ -5,6 +5,25 @@
 # You can use this file to define the base matches (aka snippets)
 # that will be available in every application when using espanso.
 
+# https://espanso.org/docs/matches/basics/#global-variables
+global_vars:
+  - name: "global1"
+    type: "shell"
+    params:
+      cmd: "echo global var"
+  - name: "greet"
+    type: "echo"
+    params:
+      echo: "Hey"
+  - name: "user.name"
+    type: "echo"
+    params:
+      echo: "Francis Sabado"
+  - name: "user.email"
+    type: "echo"
+    params:
+      echo: "fs8080@gmail.com"
+
 # Matches are substitution rules: when you type the "trigger" string
 # it gets replaced by the "replace" string.
 matches:
