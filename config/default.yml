@@ -61,3 +61,22 @@ show_icon: true
 show_notifications: true
 # --- Other Options
 # https://espanso.org/docs/configuration/options/#options-reference
+
+# Clipboard, Inject, Auto
+backend: Auto
+
+# Number of milliseconds between text injection events
+# inject_delay: 0
+
+# Number of milliseconds between key injection events.
+# key_delay: 0
+
+# Number of chars after which a match is injected with the clipboard backend instead of the default one.
+clipboard_threshold: 100
+
+# If true, Espanso will attempt to preserve the previous clipboard content after an expansion has taken place.
+preserve_clipboard: true
+
+# When enabled, espanso automatically "reverts" an expansion if the user presses the Backspace key afterwards.
+# This is not available on some platform/configurations
+undo_backspace: false
