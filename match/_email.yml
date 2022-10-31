@@ -6,6 +6,7 @@ parent: default
 
 matches:
   - trigger: ":contact"
+    label: "Shows the contacts email snippet"
     replace: |
       Hi,
       Thank you for contacting us!

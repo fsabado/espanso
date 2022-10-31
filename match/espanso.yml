@@ -5,6 +5,7 @@ parent: default
 
 matches:
   - triggers: [ ";es-templates.", ";es-t."]
+    label: "Espanso snippet for matching template."
     replace: |
       name: ""
       package_author: Francis Sabado <https://www.fsabado.com>

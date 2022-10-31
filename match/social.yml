@@ -6,6 +6,7 @@ parent: default
 
 matches:
   - trigger: ";social."
+    label: "Add social media links"
     replace: "{{social.links}}"
     vars:
       - name: "social"

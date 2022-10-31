@@ -5,4 +5,5 @@ parent: default
 
 matches:
   - trigger: ";shiba."
+    label: "Add shiba inu image."
     image_path: "$CONFIG\\images\\shiba_inu.png"

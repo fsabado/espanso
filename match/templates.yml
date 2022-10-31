@@ -6,6 +6,7 @@ parent: default
 matches:
   - trigger: ";hello."
     replace: "{{hellow}}"
+    label: "Add the hellworld.txt template"
     vars:
       - name: hellow
         type: shell
@@ -14,6 +15,7 @@ matches:
           shell: wsl
   - trigger: ";pwd."
     replace: "{{pwd}}"
+    label: "Print the current directory."
     vars:
       - name: pwd
         type: shell
@@ -23,6 +25,7 @@ matches:
           shell: wsl
           # /mnt/c/WINDOWS/system32
   - trigger: ";config."
+    label: "Print the configuration environment."
     replace: "{{config_out}}"
     vars:
       - name: config_out
@@ -34,6 +37,7 @@ matches:
           # /mnt/c/WINDOWS/system32
   - trigger: ";espanso_home."
     replace: "{{home_output}}"
+    label: "Print the home variable"
     vars:
       - name: home_output
         type: shell
