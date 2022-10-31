@@ -1,3 +1,8 @@
+# Contains the templates snippets.
+name: "templates"
+package_author: Francis Sabado <https://www.fsabado.com>
+parent: default
+
 matches:
   - trigger: ";hello."
     replace: "{{hellow}}"
