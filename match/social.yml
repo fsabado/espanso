@@ -1,0 +1,19 @@
+# Inserts the URL to a selected website or social media platform
+matches:
+  - trigger: ";social."
+    replace: "{{social.links}}"
+    vars:
+      - name: "social"
+        type: form
+        params:
+          layout: |
+            Social Media Profiles
+            [[links]]
+          fields:
+            links:
+              type: choice
+              values:
+                - "https://fsabado.com"
+                - "https://github.com/fsabado"
+                - "https://keybase.io/fsabado"
+                - "https://www.linkedin.com/in/fsabado"
