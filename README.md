@@ -63,10 +63,21 @@ Reload espanso
 ## Search Bar
 
 Search bar: `ALT + SPACE`
-
 Search bar then `>` to show available commands.
+
+## Detecting Classes and App-title
+https://espanso.org/docs/configuration/app-specific-configurations/
+
+```sh
+#detect#
+//OR
+
+Search bar then `>` "Show active application information"
+```
 
 ## Useful shortcuts
 
 Search bar: `ALT + SPACE`
 `toggle_key`: `ALT` - Toggle ON/OFF: double press `toggle_key`
+
+
