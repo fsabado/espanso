@@ -1,0 +1,8 @@
+# Markdown configuration
+name: "markdown"
+package_author: Francis Sabado <https://www.fsabado.com>
+parent: default
+
+matches:
+  - triggers: ["```"]
+    replace: "```\n$|$\n```"
