@@ -1,0 +1,12 @@
+# Espanso Helper
+name: "espanso"
+package_author: Francis Sabado <https://www.fsabado.com>
+parent: default
+
+matches:
+  - triggers: [ ";es-templates.", ";es-t."]
+    replace: |
+      name: ""
+      package_author: Francis Sabado <https://www.fsabado.com>
+      parent: default
+
