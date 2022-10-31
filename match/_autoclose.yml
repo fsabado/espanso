@@ -1,0 +1,21 @@
+# Auto close brackets, quotes and modifiers, putting cursor in the center
+# Only enable on non-closing editors.
+name: "autoclose"
+package_author: Francis Sabado <https://www.fsabado.com>
+parent: default
+
+matches:
+  - trigger: '('
+    replace: '($|$)'
+  - trigger: '['
+    replace: '[$|$]'
+  - trigger: '{'
+    replace: '{$|$}'
+  - trigger: '<'
+    replace: '<$|$>'
+  - trigger: '`'
+    replace: '`$|$`'
+  - trigger: '"'
+    replace: '"$|$"'
+  - trigger: '*'
+    replace: '*$|$*'
