@@ -1,4 +1,8 @@
 # Email snippets
+# Contains the snippets use for emails.
+name: "emails snippets"
+package_author: Francis Sabado <https://www.fsabado.com>
+parent: default
 
 matches:
   - trigger: ":contact"
@@ -7,3 +11,4 @@ matches:
       Thank you for contacting us!
       Best regards,
       The Support Team
+
