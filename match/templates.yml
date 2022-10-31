@@ -1,0 +1,29 @@
+matches:
+  - trigger: ";hello."
+    replace: "{{hellow}}"
+    vars:
+      - name: hellow
+        type: shell
+        params:
+          cmd: "cat $CONFIG/templates/helloworld.txt"
+          shell: wsl
+  - trigger: ";pwd."
+    replace: "{{pwd}}"
+    vars:
+      - name: pwd
+        type: shell
+        params:
+          # cmd: "cat ./templates/helloworld.txt"
+          cmd: "pwd"
+          shell: wsl
+          # /mnt/c/WINDOWS/system32
+  - trigger: ";config."
+    replace: "{{pwd}}"
+    vars:
+      - name: pwd
+        type: shell
+        params:
+          # cmd: "cat ./templates/helloworld.txt"
+          cmd: "echo $CONFIG"
+          shell: wsl
+          # /mnt/c/WINDOWS/system32
