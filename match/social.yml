@@ -1,4 +1,9 @@
 # Inserts the URL to a selected website or social media platform
+
+name: "social"
+package_author: Francis Sabado <https://www.fsabado.com>
+parent: default
+
 matches:
   - trigger: ";social."
     replace: "{{social.links}}"
