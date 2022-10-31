@@ -1,0 +1,35 @@
+# --- https://espanso.org/docs/configuration/app-specific-configurations/
+# Allow app-specific configurations
+
+# --- Filters
+# https://espanso.org/docs/configuration/app-specific-configurations/#filters
+# regex as parameter, so make sure to escape special characters
+# We first specify the filter_exec rule, which defines when this app-specific config will be active.
+# filter_exec: Telegram
+
+# Filter based on the current window title.
+filter_title: "Mozilla Firefox$"
+
+# filter_class: "class"
+
+# --- Show detected
+# "#detect#"
+# OR search bar + '>', then "Show active application information"
+
+# --- Enable/Disable on configuration
+# enable: false
+
+# --- Include and Exclude rules
+
+# Include snippets
+extra_includes:
+  - "../match/_quicksearch.yml"
+# Exclue snippets
+# extra_excludes:
+#   - "../match/packages/all-emojis/*"
+# - "../match/code_snippets.yml"
+# --- Include and Excluse, ignoring defaults
+# includes:
+# - "../match/jokes.yml"
+# excludes:
+# - "../match/jokes.yml"
