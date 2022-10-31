@@ -4,6 +4,9 @@
 
 # You can use this file to define the base matches (aka snippets)
 # that will be available in every application when using espanso.
+name: "base"
+package_author: Francis Sabado <https://www.fsabado.com>
+parent: default
 
 # https://espanso.org/docs/matches/basics/#global-variables
 global_vars:
