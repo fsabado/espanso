@@ -5,7 +5,7 @@ matches:
       - name: hellow
         type: shell
         params:
-          cmd: "cat $CONFIG/templates/helloworld.txt"
+          cmd: "cat {{HOME}}/templates/helloworld.txt"
           shell: wsl
   - trigger: ";pwd."
     replace: "{{pwd}}"
@@ -18,12 +18,22 @@ matches:
           shell: wsl
           # /mnt/c/WINDOWS/system32
   - trigger: ";config."
-    replace: "{{pwd}}"
+    replace: "{{config_out}}"
     vars:
-      - name: pwd
+      - name: config_out
         type: shell
         params:
           # cmd: "cat ./templates/helloworld.txt"
           cmd: "echo $CONFIG"
+          shell: wsl
+          # /mnt/c/WINDOWS/system32
+  - trigger: ";espanso_home."
+    replace: "{{home_output}}"
+    vars:
+      - name: home_output
+        type: shell
+        params:
+          # cmd: "cat ./templates/helloworld.txt"
+          cmd: "echo {{HOME}}"
           shell: wsl
           # /mnt/c/WINDOWS/system32
