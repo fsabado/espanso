@@ -1,0 +1,23 @@
+# Easily inputs ASCII emojis from a dropdown
+name: ""
+package_author: Francis Sabado <https://www.fsabado.com>
+parent: default
+
+matches:
+  - triggers: [".smileys.", ".sm."]
+    form: "[[smileys]]"
+    form_fields:
+      smileys:
+        type: choice
+        values:
+          - '¯\\_(ツ)_/¯'
+          - "(╯°□°）╯︵ ┻━┻"
+          - "( ͡ಠ ʖ̯ ͡ಠ)"
+          - "☉ ‿ ⚆"
+          - "ʕ•ᴥ•ʔ"
+          - "⋆｡˚ ☁︎ ˚｡⋆｡˚☽˚｡⋆"
+          - "◤◢◣◥◤◢◣◥"
+          - "(づᵔ◡ᵔ)づ"
+          - "|ᵔ‿ᵔ|"
+          - "⤜(*﹏*)⤏"
+          - "ツ"
