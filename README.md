@@ -10,6 +10,10 @@ This contains my personal espanso files.
 
 https://hub.espanso.org/
 
+## Matching
+
+https://espanso.org/docs/matches/basics
+
 ## Don't autoload match
 
 MAKE SURE TO INCLUDE THE UNDERSCORE!
@@ -41,11 +45,7 @@ espanso package update <package_name>
 
 # Update all packages
 espanso package update all
-
-
-
 ```
-
 ## Useful Tips
 
 Install a package
