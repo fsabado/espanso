@@ -1,0 +1,3 @@
+matches:
+  - trigger: ":shiba."
+    image_path: "$CONFIG/images/shiba_inu.png"
