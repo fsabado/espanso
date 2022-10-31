@@ -1,3 +1,8 @@
+# Use to contain images snippets.
+name: "images"
+package_author: Francis Sabado <https://www.fsabado.com>
+parent: default
+
 matches:
   - trigger: ";shiba."
     image_path: "$CONFIG\\images\\shiba_inu.png"
