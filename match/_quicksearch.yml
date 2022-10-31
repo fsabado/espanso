@@ -1,0 +1,34 @@
+# Quick search, formulates the URL params for searching a given website
+# Use only for browsers
+# Source: https://notes.aliciasykes.com/25213/using-espanso-to-boost-efficiency
+name: "quick search"
+package_author: Francis Sabado <https://www.fsabado.com>
+parent: default
+
+matches:
+  - triggers: [.sduck., .search-duckduckgo]
+    replace: "https://duckduckgo.com/?q="
+  - triggers: [.swiki., .search-wikipedia]
+    replace: "https://en.wikipedia.org/w/?search="
+  - triggers: [.sgit., .search-github]
+    replace: "https://github.com/search?q="
+  - triggers: [.sstack., .search-stackoverflow]
+    replace: "https://stackoverflow.com/search?q="
+  - triggers: [.sdocker., .search-dockerhub]
+    replace: "https://hub.docker.com/search?q="
+  - triggers: [.swolfram., .search-wolframalpha]
+    replace: "https://www.wolframalpha.com/input/?i="
+  - triggers: [.srd., .sreddit., .search-reddit]
+    replace: "https://www.reddit.com/search/?q="
+  - triggers: [.sbbc., .search-bbc]
+    replace: "https://www.bbc.co.uk/search?q="
+  - triggers: [.svirus., .search-virustotal]
+    replace: "https://www.virustotal.com/gui/search/"
+  - triggers: [.samzn., .search-amazon]
+    replace: "https://smile.amazon.com/s?k="
+  - triggers: [.syt., .search-youtube]
+    replace: "https://youtube.com/results?q="
+  - triggers: [.smap., .smaps., .search-maps]
+    replace: "https://www.google.com/maps/search/"
+  - triggers: [.sgg., .search-google]
+    replace: "https://google.com/search?q="
