@@ -1,0 +1,5 @@
+global_vars:
+  - name: "HOME"
+    type: "echo"
+    params:
+      echo: "/mnt/c/Users/fsabado/AppData/Roaming/espanso"
